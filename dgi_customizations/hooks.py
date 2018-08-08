@@ -16,6 +16,13 @@ app_license = "MIT"
 
 setup_wizard_requires = "assets/dgi_customizations/js/setup_wizard.js"
 
+website_context = {
+	"favicon": 	"/assets/dgi_customizations/images/favicon.png",
+	"splash_image": "/assets/dgi_customizations/images/splash.png"
+}
+
+app_include_js = "/assets/dgi_customizations/js/conf.js"
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/dgi_customizations/css/dgi_customizations.css"
 # app_include_js = "/assets/dgi_customizations/js/dgi_customizations.js"
